@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------------------------*/
+/*	1. BASE
+/*-----------------------------------------------------------------------------*/
+
+html{
+    font-family: 'Gill Sans MT', 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*	2. Typology
+/*-----------------------------------------------------------------------------*/
+
+
+.title{
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.75em;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+h4{
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+p{
+    line-height: 1.5;
+    text-transform: none;
+}
+
+
+/* Tablet */
+
+@media screen and (max-width: 960px){
+    html{
+        font-size: 15px;
+    }
+}
+
+/* Phone */
+
+@media screen and (max-width: 544px){
+    html{
+        font-size: 13px;
+    }
+}
+
+nav{
+    text-transform: uppercase;
+}
+
+.active-link{
+    color: black !important;
+}
+
